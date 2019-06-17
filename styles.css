@@ -44,12 +44,40 @@ section {
     background-color: white;
     width: 70%;
     margin-bottom: 164px;
+    border-radius: 15px;
 }
+
+section img {
+    margin-left: 25%;
+     margin-top: 20px;
+}
+
+h6 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 70px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+h4 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+
 
 h1 {
     font-size: 70px;
-    color: forestgreen;
+    color: white;
     text-align: center;
+    background-color: black;
 }
 
 h3{
