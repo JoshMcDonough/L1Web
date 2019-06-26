@@ -19,6 +19,26 @@ nav img {
     float: left
 }
 
+bold {
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.bigbox img {
+    margin: 10px auto;
+    margin-bottom: 5px auto;
+    width: 600px;
+    height: 550px;
+}
+
+.twobox img {
+    margin: 10px auto;
+    width: 600px;
+    height: 250px;
+}
+
 nav a {
     background-color: black;
     border: 5px solid black;
@@ -93,7 +113,7 @@ section {
     flex-wrap: wrap;
 }
 
-p {
+.onebox p {
     display: inline-block;
     width: 100%;
     vertical-align: top;
@@ -156,8 +176,22 @@ h7 {
     font-family: cursive;
 }
 
+h8 {
+    font-size: 25px;
+    margin-left: 5px;
+    font-family: cursive;
+}
+
 
 
 footer {
-    background-color: darkgrey;
+    background-color: darkgrey; 
+    vertical-align: top
+}
+
+footer img {
+    height: 27px;
+    width: 27px; 
+    vertical-align: top;
+    float: right;
 }
