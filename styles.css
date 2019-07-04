@@ -3,10 +3,14 @@ html {
     height: 100%;
 }
 
+/*My black background.*/
+
 * {
     margin: 0;
     padding: 0;
 }
+
+/*Sets the whole page.*/
 
 nav {
     background-color: white;
@@ -15,9 +19,14 @@ nav {
     margin-bottom: 20px;
 }
 
+/*My navigation bar*/
+
 nav img {
     float: left
 }
+
+/*This is for my logo in my navigation bar.*/
+
 
 bold {
     margin-left: 10px;
@@ -26,6 +35,8 @@ bold {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+/*This is for my headings in the Contacts page.*/
+
 .bigbox img {
     margin: 10px auto;
     margin-bottom: 5px auto;
@@ -33,11 +44,15 @@ bold {
     height: 550px;
 }
 
+/*The image in my large box in Index.*/
+
 .twobox img {
     margin: 10px auto;
     width: 600px;
     height: 250px;
 }
+
+/*The image for my small box in Index.*/
 
 nav a {
     background-color: black;
@@ -54,9 +69,13 @@ nav a {
     font-family: sans-serif;
 }
 
+/*So i can click on anchor*/
+
 a:hover {
     color: crimson;
 }
+
+/*When i hover over my anchors.*/
 
 .bigbox {
     width: 48%;
@@ -66,10 +85,14 @@ a:hover {
     border-radius: 10px;
 }
 
+/*So my index page has the boxes*/
+
 .right {
     width: 48%;
     margin: 1%;
 }
+
+/*This pushes the two small boxes on my contact to the right.*/
 
 .onebox {
     display: inline-block;
@@ -79,6 +102,8 @@ a:hover {
     border-radius: 10px;
 }
 
+/*So it's on the right.*/
+
 .twobox {
     width: 100%;
     margin: 1vh auto;
@@ -87,6 +112,7 @@ a:hover {
     border-radius: 10px;
 }
 
+/*So it's on the right.*/
 
 section {
     min-height: 60vh;
@@ -98,34 +124,43 @@ section {
 
 }
 
+/*For all my sections sizes.*/
+
 .contact section {
     min-height: 60vh;
     margin: 10vh auto;
     background-color: white;
     width: 70%;
     margin-bottom: 164px;
-    border-radius: 15px;
-
+    border-radius: 15px
 }
+
+/*For my contact pages section.*/
 
 .wrap {
     display: flex;
     flex-wrap: wrap;
 }
 
+/*Wrap makes sure the boxes fit.*/
+
 .onebox p {
     display: inline-block;
     width: 100%;
     vertical-align: top;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 
 }
 
+/*The small boxes words.*/
+
 section img {
     margin-left: 30%;
 }
+
+/*For my shop pages spacing.*/
 
 h1 {
     font-size: 70px;
@@ -174,10 +209,11 @@ h6 {
 h7 {
     display: block;
     width: 100%;
-    font-size: 25px;
+    font-size: 40px;
     color: black;
     text-align: center;
     font-family: 'Rubik Mono One', sans-serif;
+    margin-top: 3vh;
 }
 
 h8 {
@@ -188,15 +224,20 @@ h8 {
 
 }
 
+/*All these different h's are for my texts to have exactly what I want them to do.*/
 
 footer {
     background-color: darkgrey;
-    vertical-align: top
+    vertical-align: top;
 }
+
+/*For my footer color and how the logos stay at the top.*/
 
 footer img {
     height: 27px;
     width: 27px;
-    vertical-align: top;
     float: right;
+    vertical-align: top;
 }
+
+/*The social media images size on the footer.*/
