@@ -1,6 +1,8 @@
 html {
     background-color: black;
     height: 100%;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 20px;
 }
 
 /*My black background.*/
@@ -66,7 +68,7 @@ nav a {
     margin-right: 30px;
     margin-top: 30px;
     font-weight: normal;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*So i can click on anchor*/
@@ -158,6 +160,7 @@ section {
 
 section img {
     margin-left: 30%;
+    height: 500px;
 }
 
 /*For my shop pages spacing.*/
