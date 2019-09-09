@@ -31,7 +31,7 @@ nav img {
 
 
 bold {
-    margin-left: 10px;
+    margin-left: 5%;
     font-size: 30px;
     font-weight: bold;
     font-family: 'Rubik Mono One', sans-serif;
@@ -40,18 +40,18 @@ bold {
 /*This is for my headings in the Contacts page.*/
 
 .bigbox img {
-    margin: 10px auto;
-    margin-bottom: 5px auto;
-    width: 600px;
-    height: 550px;
+    margin: 5% auto;
+    margin-bottom: 5%s auto;
+    width: 100%;
+    height: 90%;
 }
 
 /*The image in my large box in Index.*/
 
 .twobox img {
-    margin: 10px auto;
-    width: 600px;
-    height: 250px;
+    margin: 5% auto;
+    width: 100%;
+    height: 90%;
 }
 
 /*The image for my small box in Index.*/
@@ -65,8 +65,8 @@ nav a {
     text-decoration: none;
     float: right;
     font-size: 20px;
-    margin-right: 30px;
-    margin-top: 30px;
+    margin-right: 3%;
+    margin-top: 2%;
     font-weight: normal;
     font-family: 'Open Sans', sans-serif;
 }
@@ -121,7 +121,7 @@ section {
     margin: 10vh auto;
     background-color: black;
     width: 70%;
-    margin-bottom: 164px;
+    margin-bottom: 18%;
     border-radius: 15px;
 
 }
@@ -133,7 +133,7 @@ section {
     margin: 10vh auto;
     background-color: white;
     width: 70%;
-    margin-bottom: 164px;
+    margin-bottom: 16%;
     border-radius: 15px
 }
 
@@ -150,7 +150,7 @@ section {
     display: inline-block;
     width: 100%;
     vertical-align: top;
-    font-size: 25px;
+    font-size: 100%;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 
@@ -159,8 +159,9 @@ section {
 /*The small boxes words.*/
 
 section img {
-    margin-left: 30%;
-    height: 500px;
+    height: 5%;
+    margin-left: 8%;
+    width: 80%;
 }
 
 /*For my shop pages spacing.*/
@@ -174,7 +175,7 @@ h1 {
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 100%;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
@@ -221,7 +222,7 @@ h7 {
 
 h8 {
     font-size: 25px;
-    margin-left: 5px;
+    margin-left: 5%;
     font-family: cursive;
     font-family: 'Open Sans', sans-serif;
 
@@ -237,8 +238,8 @@ footer {
 /*For my footer color and how the logos stay at the top.*/
 
 footer img {
-    height: 27px;
-    width: 27px;
+    height: 100%;
+    width: 3%;
     float: right;
     vertical-align: top;
 }
